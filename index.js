@@ -12,7 +12,6 @@ function timeLord() {
   var hexLog = "#" + hrs + min + sec;
 
   document.querySelector('.time').innerHTML = timeLog;
-  // document.querySelector('.hexbox').innerHTML = hexLog;
 
   document.querySelector('.hexbox').style.backgroundColor = hexLog;
 
